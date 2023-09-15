@@ -11,6 +11,8 @@
 		E8D17F412AB2FE4800C4CDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F402AB2FE4800C4CDC6 /* ContentView.swift */; };
 		E8D17F432AB2FE4900C4CDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D17F422AB2FE4900C4CDC6 /* Assets.xcassets */; };
 		E8D17F462AB2FE4900C4CDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D17F452AB2FE4900C4CDC6 /* Preview Assets.xcassets */; };
+		E8D17F4E2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift */; };
+		E8D17F592AB40A0D00C4CDC6 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F582AB40A0D00C4CDC6 /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E8D17F402AB2FE4800C4CDC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8D17F422AB2FE4900C4CDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D17F452AB2FE4900C4CDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemAnimation.swift; sourceTree = "<group>"; };
+		E8D17F582AB40A0D00C4CDC6 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,10 @@
 		E8D17F3D2AB2FE4800C4CDC6 /* AnimationExperiment */ = {
 			isa = PBXGroup;
 			children = (
-				E8D17F3E2AB2FE4800C4CDC6 /* AnimationExperimentApp.swift */,
-				E8D17F402AB2FE4800C4CDC6 /* ContentView.swift */,
-				E8D17F422AB2FE4900C4CDC6 /* Assets.xcassets */,
+				E8D17F552AB409E700C4CDC6 /* Application */,
+				E8D17F4C2AB2FE5900C4CDC6 /* Module */,
 				E8D17F442AB2FE4900C4CDC6 /* Preview Content */,
+				E8D17F562AB409F000C4CDC6 /* Resource */,
 			);
 			path = AnimationExperiment;
 			sourceTree = "<group>";
@@ -65,6 +69,56 @@
 				E8D17F452AB2FE4900C4CDC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8D17F4C2AB2FE5900C4CDC6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E8D17F532AB409D300C4CDC6 /* SolarSystem */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E8D17F532AB409D300C4CDC6 /* SolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E8D17F572AB409FD00C4CDC6 /* Model */,
+				E8D17F542AB409DF00C4CDC6 /* View */,
+			);
+			path = SolarSystem;
+			sourceTree = "<group>";
+		};
+		E8D17F542AB409DF00C4CDC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8D17F552AB409E700C4CDC6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E8D17F3E2AB2FE4800C4CDC6 /* AnimationExperimentApp.swift */,
+				E8D17F402AB2FE4800C4CDC6 /* ContentView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E8D17F562AB409F000C4CDC6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E8D17F422AB2FE4900C4CDC6 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E8D17F572AB409FD00C4CDC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8D17F582AB40A0D00C4CDC6 /* Planet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +193,8 @@
 			files = (
 				E8D17F412AB2FE4800C4CDC6 /* ContentView.swift in Sources */,
 				E8D17F3F2AB2FE4800C4CDC6 /* AnimationExperimentApp.swift in Sources */,
+				E8D17F592AB40A0D00C4CDC6 /* Planet.swift in Sources */,
+				E8D17F4E2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
