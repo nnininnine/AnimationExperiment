@@ -11,7 +11,7 @@ struct ContentView: View {
     // MARK: Properties
 
     let list: [ContentViewPage] = [
-        ContentViewPage(title: "Solar system", view: SolarSystemAnimation())
+        ContentViewPage(title: "Solar system", view: SolarSystemAnimationView())
     ]
 
     // MARK: View

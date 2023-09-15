@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SolarSystemAnimation: View {
+struct SolarSystemAnimationView: View {
     // MARK: Properties
 
     @State var isAnimating: Bool = false
@@ -105,8 +105,8 @@ struct SolarSystemAnimation: View {
     }
 }
 
-struct SolarSystemAnimation_Previews: PreviewProvider {
+struct SolarSystemAnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        SolarSystemAnimation()
+        SolarSystemAnimationView()
     }
 }

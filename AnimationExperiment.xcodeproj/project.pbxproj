@@ -11,7 +11,7 @@
 		E8D17F412AB2FE4800C4CDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F402AB2FE4800C4CDC6 /* ContentView.swift */; };
 		E8D17F432AB2FE4900C4CDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D17F422AB2FE4900C4CDC6 /* Assets.xcassets */; };
 		E8D17F462AB2FE4900C4CDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D17F452AB2FE4900C4CDC6 /* Preview Assets.xcassets */; };
-		E8D17F4E2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift */; };
+		E8D17F4E2AB2FF0800C4CDC6 /* SolarSystemAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimationView.swift */; };
 		E8D17F592AB40A0D00C4CDC6 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D17F582AB40A0D00C4CDC6 /* Planet.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +21,7 @@
 		E8D17F402AB2FE4800C4CDC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8D17F422AB2FE4900C4CDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D17F452AB2FE4900C4CDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemAnimation.swift; sourceTree = "<group>"; };
+		E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemAnimationView.swift; sourceTree = "<group>"; };
 		E8D17F582AB40A0D00C4CDC6 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +74,7 @@
 		E8D17F4C2AB2FE5900C4CDC6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				E8D17F5A2AB4451800C4CDC6 /* HeartPulse */,
 				E8D17F532AB409D300C4CDC6 /* SolarSystem */,
 			);
 			path = Module;
@@ -91,7 +92,7 @@
 		E8D17F542AB409DF00C4CDC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift */,
+				E8D17F4D2AB2FF0800C4CDC6 /* SolarSystemAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +120,13 @@
 				E8D17F582AB40A0D00C4CDC6 /* Planet.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E8D17F5A2AB4451800C4CDC6 /* HeartPulse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HeartPulse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +202,7 @@
 				E8D17F412AB2FE4800C4CDC6 /* ContentView.swift in Sources */,
 				E8D17F3F2AB2FE4800C4CDC6 /* AnimationExperimentApp.swift in Sources */,
 				E8D17F592AB40A0D00C4CDC6 /* Planet.swift in Sources */,
-				E8D17F4E2AB2FF0800C4CDC6 /* SolarSystemAnimation.swift in Sources */,
+				E8D17F4E2AB2FF0800C4CDC6 /* SolarSystemAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
